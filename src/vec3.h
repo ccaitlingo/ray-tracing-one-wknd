@@ -42,6 +42,8 @@ class vec3 {
             e[2] += v.e[2];
             // * = a pointer, allows you to refer directly to values in memory
             // (not referring to a copy).
+            // The only difference btwn reference (&) and pointer (*) is that
+            // a pointer can be null.
             return *this;
         }
 
